@@ -38,7 +38,7 @@ curl -X POST \
     "http://localhost/api/v1/user/login" \
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
-    -d '{"email":"mail@mail.com","password":"tempora"}'
+    -d '{"email":"mail@mail.com","password":"placeat"}'
 
 ```
 
@@ -54,7 +54,7 @@ let headers = {
 
 let body = {
     "email": "mail@mail.com",
-    "password": "tempora"
+    "password": "placeat"
 }
 
 fetch(url, {
@@ -117,7 +117,7 @@ curl -X POST \
     "http://localhost/api/v1/user/register" \
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
-    -d '{"first_name":"Jane","last_name":"Doe","email":"mail@mail.com","password":"labore","password_confirmation":"cupiditate"}'
+    -d '{"first_name":"Jane","last_name":"Doe","email":"mail@mail.com","password":"eos","password_confirmation":"ut"}'
 
 ```
 
@@ -135,8 +135,8 @@ let body = {
     "first_name": "Jane",
     "last_name": "Doe",
     "email": "mail@mail.com",
-    "password": "labore",
-    "password_confirmation": "cupiditate"
+    "password": "eos",
+    "password_confirmation": "ut"
 }
 
 fetch(url, {
@@ -193,7 +193,7 @@ curl -X POST \
     "http://localhost/api/v1/owner/login" \
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
-    -d '{"email":"mail@mail.com","password":"est"}'
+    -d '{"email":"mail@mail.com","password":"consequuntur"}'
 
 ```
 
@@ -209,7 +209,7 @@ let headers = {
 
 let body = {
     "email": "mail@mail.com",
-    "password": "est"
+    "password": "consequuntur"
 }
 
 fetch(url, {
@@ -272,7 +272,7 @@ curl -X POST \
     "http://localhost/api/v1/owner/register" \
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
-    -d '{"first_name":"Jane","last_name":"Doe","email":"mail@mail.com","password":"ad","password_confirmation":"tempore"}'
+    -d '{"first_name":"Jane","last_name":"Doe","email":"mail@mail.com","password":"inventore","password_confirmation":"provident"}'
 
 ```
 
@@ -290,8 +290,8 @@ let body = {
     "first_name": "Jane",
     "last_name": "Doe",
     "email": "mail@mail.com",
-    "password": "ad",
-    "password_confirmation": "tempore"
+    "password": "inventore",
+    "password_confirmation": "provident"
 }
 
 fetch(url, {
@@ -348,7 +348,7 @@ curl -X POST \
     "http://localhost/api/v1/rider/login" \
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
-    -d '{"email":"mail@mail.com","password":"sit"}'
+    -d '{"email":"mail@mail.com","password":"accusamus"}'
 
 ```
 
@@ -364,7 +364,7 @@ let headers = {
 
 let body = {
     "email": "mail@mail.com",
-    "password": "sit"
+    "password": "accusamus"
 }
 
 fetch(url, {
@@ -427,7 +427,7 @@ curl -X POST \
     "http://localhost/api/v1/rider/register" \
     -H "Content-Type: application/json" \
     -H "Accept: application/json" \
-    -d '{"first_name":"Jane","last_name":"Doe","email":"mail@mail.com","password":"consequatur","password_confirmation":"eos"}'
+    -d '{"first_name":"Jane","last_name":"Doe","email":"mail@mail.com","password":"ipsa","password_confirmation":"error"}'
 
 ```
 
@@ -445,8 +445,8 @@ let body = {
     "first_name": "Jane",
     "last_name": "Doe",
     "email": "mail@mail.com",
-    "password": "consequatur",
-    "password_confirmation": "eos"
+    "password": "ipsa",
+    "password_confirmation": "error"
 }
 
 fetch(url, {

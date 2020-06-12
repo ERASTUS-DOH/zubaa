@@ -242,7 +242,7 @@ class AuthenticationController extends Controller
             'first_name' => 'required|string|max:255',
             'last_name' => 'required|string|max:255',
             'other_name' => 'string|max:255',
-            'telephone' => 'numeric|max:255',
+            'telephone' => 'numeric',
             'address' => 'string',
             'email' => 'required|email|max:255|unique:owners',
             'password' => 'required|min:8'
@@ -361,7 +361,7 @@ class AuthenticationController extends Controller
             'first_name' => 'required|string|max:255',
             'last_name' => 'required|string|max:255',
             'other_name' => 'string|max:255',
-            'telephone' => 'numeric|max:255',
+            'telephone' => 'numeric',
             'address' => 'string',
             'email' => 'required|email|max:255|unique:riders',
             'password' => 'required|min:8'

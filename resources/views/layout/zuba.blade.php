@@ -34,7 +34,8 @@
         </div>
         <div class="sidebar-wrapper">
             <ul class="nav">
-                <li class="nav-item @if(route::is('home')){{'active'}}@endif">
+                <li class="nav-item ">
+{{--                    @if(route::is('home')){{'active'}}@endif--}}
                     <a class="nav-link" href="{{url('/home')}}">
                         <i class="fas fa-warehouse"></i>
                         <p>Dashboard</p>
@@ -47,19 +48,22 @@
 {{--                        @endphp--}}
                     </a>
                 </li>
-                <li class="nav-item @if(route::is('bins')){{'active'}}@endif">
+                <li class="nav-item ">
+{{--                    @if(route::is('bins')){{'active'}}@endif--}}
                     <a class="nav-link" href="{{url('/bins')}}">
                         <i class="fas fa-dumpster"></i>
                         <p>Bins</p>
                     </a>
                 </li>
-                <li class="nav-item @if(route::is('tricycles')){{'active'}}@endif">
+                <li class="nav-item ">
+{{--                    @if(route::is('tricycles')){{'active'}}@endif--}}
                     <a class="nav-link" href="{{url('/tricycles')}}">
                         <i class="fas fa-truck"></i>
                         <p>Tricycles</p>
                     </a>
                 </li>
-                <li class="nav-item @if(route::is('binOwners')){{'active'}}@endif">
+                <li class="nav-item ">
+{{--                    @if(route::is('binOwners')){{'active'}}@endif--}}
                     <a class="nav-link" href="{{url('/binOwners')}}">
                         <i class="fas fa-users"></i>
                         <p>Users</p>

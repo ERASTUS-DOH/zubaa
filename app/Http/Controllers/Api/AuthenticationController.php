@@ -15,7 +15,7 @@ use App\Traits\ApiBaseController;
 /**
  * @group Authentication Management
  *
- * User authentication and account settings.
+ * User,Owners and Riders authentication and account settings.
  *
  * Class AuthenticationController
  * @package App\Http\Controllers\Api
@@ -28,10 +28,10 @@ class AuthenticationController extends Controller
     /**
      * Login a User
      *
-     * Authenticates a user.
+     * Authenticates Admin User
      *
-     * @bodyParam email string required The email of the user. Example: mail@mail.com
-     * @bodyParam password string required The password of the user.
+     * @bodyParam email string required The email of the admin user. Example: mail@mail.com
+     * @bodyParam password string required The password of the admin user.
      *
      * @response 200 {
      * "success": {
@@ -56,7 +56,7 @@ class AuthenticationController extends Controller
      * @return \Illuminate\Http\JsonResponse
      */
 
-    //function for the authentication of the user credentials via the api.
+    //function for the authentication of the admin user credentials via the api.
     public function loginUser(Request $request)
     {
         //validate credentials
